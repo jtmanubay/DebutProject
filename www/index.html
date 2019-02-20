@@ -19,7 +19,7 @@
     <!-- Path to your custom app styles-->
     
   </head>
-  <body class="color-theme-pink">
+  <body class="color-theme-pink"  >
     <!-- App root element -->
     <div id="app">
       <!-- Statusbar overlay -->
@@ -28,53 +28,915 @@
       <!-- Your main view, should have "view-main" class -->
       <div class="view view-main">
         <!-- Initial Page, "data-name" contains page name -->
-        <div data-name="home" class="page">
+       <div class="page">
 
-          <!-- Top Navbar -->
-          <div class="navbar">
-		    <div class="navbar-inner">
-		       <!--  <div class="left">
-		            <a href="#" class="link icon-only">
-		                <i class="icon icon-back"></i>
-		            </a>
-		        </div> -->
-		       
-		      
-		    </div>
-		</div>
-       
 
-          <!-- Scrollable page content -->
-          <div class="page-content">
-            <p style=""></p>
-
-            <!-- Link to another page -->
-			
+  <div class="toolbar tabbar-labels toolbar-bottom-md">
+  <div class="toolbar-inner">
+            <a href="#tab-1" class="tab-link tab-link-active">
+         
+              <i class="icon f7-icons ios-only icon-ios-fill">home_fill</i>
+              <i class="icon material-icons md-only">home</i>
+              <span class="tabbar-label">Home</span>
+            </a>
+            <a href="#tab-2" class="tab-link ">
+              <i class="icon f7-icons ios-only icon-ios-fill">list_fill</i>
+              <i class="icon material-icons md-only">people</i>
+              <span class="tabbar-label">Precious 18's</span>
+            </a>
+            <a href="#tab-3" class="tab-link ">
+              <i class="icon f7-icons ios-only icon-ios-fill">time_fill</i>
+              <i class="icon material-icons md-only">timeline</i>
+              <span class="tabbar-label">Programme</span>
+            </a>
+             <a href="#tab-4" class="tab-link">
+              <i class="icon f7-icons ios-only icon-ios-fill">location_fill</i>
+              <i class="icon material-icons md-only">place</i>
+              <span class="tabbar-label">Location</span>
+            </a>
+             <a href="#tab-5" class="tab-link">
+              <i class="icon f7-icons ios-only icon-ios-fill">menu_fill</i>
+              <i class="icon material-icons md-only">local_dining</i>
+              <span class="tabbar-label">Menu</span>
+            </a>
+            <a href="#tab-6" class="tab-link">
+              <i class="icon f7-icons ios-only icon-ios-fill">list_fill</i>
+              <i class="icon material-icons md-only">people</i>
+              <span class="tabbar-label">Profile</span>
+            </a>
           </div>
-            <div class="toolbar tabbar-labels toolbar-bottom-md">
-        <div class="toolbar-inner">
-          <a href="#view-home" class="tab-link tab-link-active">
-            <i class="icon f7-icons ios-only">home</i>
-            <i class="icon f7-icons ios-only icon-ios-fill">home_fill</i>
-            <i class="icon material-icons md-only">home</i>
-            <span class="tabbar-label">Home</span>
-          </a>
-          <a href="#view-catalog" class="tab-link">
-            <i class="icon f7-icons ios-only">list</i>
-            <i class="icon f7-icons ios-only icon-ios-fill">list_fill</i>
-            <i class="icon material-icons md-only">view_list</i>
-            <span class="tabbar-label">Catalog</span>
-          </a>
-          <a href="#view-settings" class="tab-link">
-            <i class="icon f7-icons ios-only">settings</i>
-            <i class="icon f7-icons ios-only icon-ios-fill">settings_fill</i>
-            <i class="icon material-icons md-only">settings</i>
-            <span class="tabbar-label">Settings</span>
-          </a>
+  </div>
+  <div class="tabs-swipeable-wrap">
+    <div class="tabs">
+      <div id="tab-1" class="page-content tab tab-active">
+       <div class="page">
+            <div style="height: 100%">
+               <img src="18s/aubrey.jpg" alt=" " style="width: 100%;height: 100%" />
+            </div>
+            
+       </div>
+      </div>
+      <div id="tab-2" class="page-content tab">
+       <div class="page">
+              <div class="navbar">
+                <div class="navbar-inner">
+                  <div class="left"></div>
+                  <div class="title">Precious 18</div>
+                  <div class="right"></div>
+                  <div class="subnavbar">
+                    <div class="subnavbar-inner">
+                      <div class="segmented segmented-raised">
+                        <a class="button tab-link tab-link-active" href="#tab1">Roses</a>
+                        <a class="button tab-link" href="#tab2">Candles</a>
+                        <a class="button tab-link" href="#tab3">Bills</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="page-content hide-navbar-on-scroll">
+                <div class="tabs">
+                  <div class="tab tab-active" id="tab1">
+                    <div class="block">
+
+                      <div class="list media-list">
+                    <ul>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/danielpadilla.jfif" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Daniel Padilla</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/richardyap.jfif" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Richard Yap</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/enriquegil.jfif" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Enrique Gil</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/aldenrichards.jfif" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Alden Richards</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/jamesreid.jfif" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">James Reid</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/xianlim.jfif" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Xian Lim</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/jerichorosales.jfif" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Jericho Rosales</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/piolopascual.jfif" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Piolo Pascual</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/johnlloydcruz.jfif" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">John Lloyd Cruz</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/derekramsay.jfif" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Derek Ramsay</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/sammilby.jfif" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Sam Milby</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/enchongdee.jfif" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Enchong Dee</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/pauloavelino.jfif" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Paulo Avelino</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/richardgutierrez.jfif" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Richard Gutierrez</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/danielmatsunaga.jfif" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Daniel Matsunaga</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/geraldanderson.jfif" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Gerald Anderson</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/jakecuenca.jfif" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Jake Cuenca</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/matteo.jfif" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Matteo Guidicelli</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                    </ul>
+                  </div>
+
+                    </div>
+                  </div>
+
+                  <div class="tab" id="tab2">
+                    <div class="block">
+                      
+                      <div class="list media-list">
+                    <ul>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/leasalonga.jpg" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Lea Salonga</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/sarah.jpg" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Sarah Geronimo</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/angel.jfif" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Angel Locsin</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/toni.jpg" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Toni Gonzaga</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/bea.jfif" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Bea Alonzo</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/anne.jpg" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Anne Curtis</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/marian.jfif" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Marian Rivera</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/kc.jfif" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Kc Concepcion</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/maine.jfif" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Maine Mendoza</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/angelica.jfif" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Angelica Panganiban</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/nadine.jfif" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Nadine Lustre</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/liza.jfif" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Liza Soberano</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/heart.jfif" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Heart Evangelista</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/rhian.jpg" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Rhian Ramos</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/yen.jpg" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Yen Santos</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/carla.jpg" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Carla Abellana</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/kyline.jpg" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Kyline Alcantara</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/julia.jpg" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Julia Montes</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                    </ul>
+                    </div>
+                  </div>
+                </div>
+
+                  <div class="tab" id="tab3">
+                    <div class="block">
+                     
+                     <div class="list media-list">
+                    <ul>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/scarlett.jfif" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Scarlett Johansson</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/robert.jfif" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Robert Downey Jr.</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/chrisevans.jfif" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Chris Evans</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/chrishemsworth.jfif" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Chris Hemsworth</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/markruffalo.jfif" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Mark Ruffalo</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/samuel.jfif" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Samuel L. Jackson</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/jeremy.jfif" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Jeremy Renner</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/tom.jfif" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Tom Hiddleston</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/paul.jfif" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Paul Bettany</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/gwyneth.jfif" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Gwyneth Paltrow</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/cobie.jfif" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Cobie Smulders</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/benedict.jfif" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Benedict Cumberbatch</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/tomholland.jfif" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Tom Holland</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/chadwick.jfif" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Chadwick Boseman</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/karen.jfif" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Karen Gillan</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/chrispratt.jfif" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Chris Pratt</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/stan.jfif" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Stan Lee</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="item-content">
+                          <div class="item-media"><img src="18s/elizabeth.jfif" width="44"/></div>
+                          <div class="item-inner">
+                            <div class="item-title-row">
+                              <div class="item-title">Elizabeth Olsen</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                    </ul>
+                    </div>
+
+                    </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+      </div>
+      <div id="tab-3" class="page-content tab" style="height: 95%;">
+        <div class="page">
+         <div class="timeline">
+           <div class="timeline-item">
+                          <div >
+                            <b>5:40<small>pm</b></small>
+                          </div>
+                          <div class="timeline-item-divider">
+                          </div>
+                          <div class="timeline-item-content">
+                            <div class="timeline-item-inner">
+                              <div class="timeline-item-time" style="font-size: 100%; color: #4a8fff;">Cocktail Time</div>
+                              <div style="text-align: justify;">Guests can munch on appetizers before the actual dinner while waiting. May also enjoy the photo booths too!</div>
+                            </div>
+                    </div>
         </div>
+
+
+        <div class="timeline-item">
+                <div ><b>6:00<small>pm</b></small></div>
+                <div class="timeline-item-divider"></div>
+                <div class="timeline-item-content">
+                  <div class="timeline-item-inner">
+                    <div class="timeline-item-time" style="font-size: 100%; color: #4a8fff;">Welcome Remarks, Debutante's Grand Entrance</div>
+                    <div style="text-align: justify;">Setting the tone of the evening. Debutante's creative entrance that complements the party's theme!</div>
+                  </div>
+          </div>
+        </div>
+
+
+        <div class="timeline-item">
+                <div ><b>6:20<small>pm</b></small></div>
+                <div class="timeline-item-divider"></div>
+                <div class="timeline-item-content">
+                  <div class="timeline-item-inner">
+                    <div class="timeline-item-time" style="font-size: 100%; color: #4a8fff;">Cotillion de Honor</div>
+                    <div style="text-align: justify;">Performance of the Cotillion de Honor with the entourage. One of the highlights of the evening!</div>
+                  </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+                <div ><b>6:40<small>pm</b></small></div>
+                <div class="timeline-item-divider"></div>
+                <div class="timeline-item-content">
+                  <div class="timeline-item-inner">
+                    <div class="timeline-item-time" style="font-size: 100%; color: #4a8fff;">Dinner</div>
+                    <div style="text-align: justify;">Guests may now enjoy their meal with pleasingly graceful background music and a band to play soothing songs too. </div>
+                  </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+                <div ><b>7:40<small>pm</b></small></div>
+                <div class="timeline-item-divider"></div>
+                <div class="timeline-item-content">
+                  <div class="timeline-item-inner">
+                    <div class="timeline-item-time" style="font-size: 100%; color: #4a8fff;">The 18 Roses, Candles, Treasures, and Bills</div>
+                    <div style="text-align: justify;">Participants may now dance, give their gifts and messages to the debutante.</div>
+                  </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+                <div ><b>8:20<small>pm</b></small></div>
+                <div class="timeline-item-divider"></div>
+                <div class="timeline-item-content">
+                  <div class="timeline-item-inner">
+                    <div class="timeline-item-time" style="font-size: 100%; color: #4a8fff;">Games and Intermission Numbers</div>
+                    <div style="text-align: justify;">Keeping everyone's energy high. Playing games and showcasing talents!</div>
+                  </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+                <div ><b>8:40<small>pm</b></small></div>
+                <div class="timeline-item-divider"></div>
+                <div class="timeline-item-content">
+                  <div class="timeline-item-inner">
+                    <div class="timeline-item-time" style="font-size: 100%; color: #4a8fff;">Happy Birthday Song, Debutante's Speech</div>
+                    <div style="text-align: justify;">Debutante's long speech- a heartfelt one to thank and value everyone.</div>
+                  </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+                <div ><b>8:50<small>pm</b></small></div>
+                <div class="timeline-item-divider"></div>
+                <div class="timeline-item-content">
+                  <div class="timeline-item-inner">
+                    <div class="timeline-item-time" style="font-size: 100%; color: #4a8fff;">Closing Remarks and Party!</div>
+                    <div style="text-align: justify;">Ending the debut with a bang! Everyone may take the dance floor and dance the night away!</div>
+                  </div>
+          </div>
+        </div>
+         </div>
+       </div>
+      </div>
+        <div id="tab-4" class="page-content tab">
+          <div class="page">
+           <div class="page-content">
+            <div class="mapouter"><div class="gmap_canvas"><iframe width="450" height="670" id="gmap_canvas" src="https://maps.google.com/maps?q=marco%20polo%20davao&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de/webdesign-muenchen/"></a></div><style>.mapouter{text-align:right;height:670px;width:450px;}.gmap_canvas {overflow:hidden;background:none!important;height:670px;width:450px;}</style></div>
+       
+          </div>
+                </div>    
+      </div>
+        <div id="tab-5" class="page-content tab" style="height: 95%;">
+          <div class="page">
+         <div class="card demo-card-header-pic">
+          <div style="background-image:url(18s/lechon.png)" class="card-header align-items-flex-end"></div>
+          <div class="card-content card-content-padding">
+            <p class="date">Lechon | Meat Dish</p>
+            <p>Meat dish, a whole pig, marinated and roasted over charcoal. Prepared and stuffed with herbs which include scallions, bay leaves, garlic, salt, lemongrass and other spices.</p>
+          </div>
+        </div>
+
+        <div class="card demo-card-header-pic">
+          <div style="background-image:url(18s/cordonbleu.jpg)" class="card-header align-items-flex-end"></div>
+          <div class="card-content card-content-padding">
+            <p class="date">Chicken Cordon Bleu | Chicken Dish</p>
+            <p>Dish of chicken meat wrapped around a slice of cheese and slices of ham, then breaded and deep-fried.</p>
+          </div>
+        </div>
+
+        <div class="card demo-card-header-pic">
+          <div style="background-image:url(18s/pancit.jpg)" class="card-header align-items-flex-end"></div>
+          <div class="card-content card-content-padding">
+            <p class="date">Pancit Bihon Guisado | Noodle Dish</p>
+            <p>Stir-fried vermicelli noodles with vegetables and pork.</p>
+          </div>
+        </div>
+
+         <div class="card demo-card-header-pic">
+          <div style="background-image:url(18s/karekare.jpg)" class="card-header align-items-flex-end"></div>
+          <div class="card-content card-content-padding">
+            <p class="date">Kare Kare | Stew Dish</p>
+            <p>A meat, tripe, and oxtail stew with vegetables in peanut sauce and served with bagoong alamang or shrimp paste.</p>
+          </div>
+        </div>
+</div>
       </div>
 
-        </div>
+      <div id="tab-6" class="page-content tab" style="height: 95%;">
+                <div class="page">
+               
+
+               <div style="background-image: url(18s/profile3.png); background-repeat: no-repeat; background-size: cover; height: 100%;"></div>
+
+               </div>
+            </div>
+
+    </div>
+  </div>
+</div>
       </div>
     </div>
     <!-- Path to Framework7 Library JS-->

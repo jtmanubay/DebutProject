@@ -1,4 +1,5 @@
 var app = new Framework7({
+ 
   // App root element
   root: '#app',
   // App Name
@@ -12,33 +13,25 @@ var app = new Framework7({
   // Add default routes
   routes: [
     {
-      path: '/about/',
-      url: 'about.html',
+      path: '/home/',
+      url: 'index.html',
     },
     {
-      path: '/adobo/',
-      url: 'adobo.html',
+      path: '/precious18/',
+      url: 'precious18.html',
     },
     {
-      path: '/afritada/',
-      url: 'afritada.html',
-    },
+      path: '/programme/',
+      url: 'programme.html',
+    } ,
     {
-      path: '/bulalo/',
-      url: 'bulalo.html',
-    },
+      path: '/location/',
+      url: 'location.html',
+    } ,
     {
-      path: '/kinilaw/',
-      url: 'kinilaw.html',
-    },
-    {
-      path: '/sisig/',
-      url: 'sisig.html',
-    },
-    {
-      path: '/tinola/',
-      url: 'tinola.html',
-    },
+      path: '/menu/',
+      url: 'menu.html',
+    }       
 
   ],
  
@@ -49,4 +42,6 @@ var app = new Framework7({
   // ... other parameters
 });
 
-var mainView = app.views.create('.view-main');
+
+var mainView = app.views.create('.view-main');  
+
